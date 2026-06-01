@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    - "-I."
+    - "-Inet/lwip/include"
+    - "-Inet/lwip/include/ipv4"
+    - "-Inet/lwip/jos"
+    - "-xc"
+    - "-std=gnu99"
+    - "-m32"
